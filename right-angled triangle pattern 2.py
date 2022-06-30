@@ -30,3 +30,10 @@ Explanation 0
 Self Explanatory
 '''
 
+n=int(input())
+for i in range(1,n+1):
+    k=i
+    for j in range(i):
+        print(k,end=" ")
+        k+=(n-j-1)
+    print()
